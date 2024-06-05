@@ -16,6 +16,7 @@ text: str = data_str()
 List of characters used in the data string.
 """
 chars: tuple[str, ...] = tuple(sorted(set(text)))
+vocab_size: int = len(chars)
 
 """
 Character to index and index to character mappings.

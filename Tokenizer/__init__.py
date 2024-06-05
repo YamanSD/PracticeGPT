@@ -1,1 +1,1 @@
-from .tokenizer import encode, decode, text
+from .tokenizer import encode, decode, text, vocab_size
